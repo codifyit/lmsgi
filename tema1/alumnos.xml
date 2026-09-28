@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    <!-- vamos a crear un contacto-->
+     <contacto>
+        <nombre>Alumn@LM</nombre>
+        <ciudad>Málaga</ciudad>
+        <teléfono>666777888</teléfono>
+        <email>12345@prueba.com</email>
+        <casado>N</casado>
+     </contacto>
+</agenda>

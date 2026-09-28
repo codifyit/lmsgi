@@ -1,0 +1,10 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"tienda"},
+{"type":"table","name":"clientes","database":"tienda","data":
+[
+{"id":"1","nombre":"Ana García","email":"ana@example.com","fecha_alta":"2026-01-15"},
+{"id":"2","nombre":"Luis Pérez","email":null,"fecha_alta":"2026-03-02"}
+]
+}
+]
