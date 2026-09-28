@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pma_xml_export version="1.0" xmlns:pma="https://www.phpmyadmin.net/some_doc_url/">
+    <pma:structure_schemas>
+        <pma:database name="tienda" collation="utf8mb4_general_ci" charset="utf8mb4">
+            <pma:table name="clientes">
+                CREATE TABLE `clientes` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `nombre` varchar(100) NOT NULL,
+                  `email` varchar(150) DEFAULT NULL,
+                  `fecha_alta` date DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+    <database name="tienda">
+        <table name="clientes">
+            <column name="id">1</column>
+            <column name="nombre">Ana García</column>
+            <column name="email">ana@example.com</column>
+            <column name="fecha_alta">2026-01-15</column>
+        </table>
+        <table name="clientes">
+            <column name="id">2</column>
+            <column name="nombre">Luis Pérez</column>
+            <column name="email">NULL</column>
+            <column name="fecha_alta">2026-03-02</column>
+        </table>
+    </database>
+</pma_xml_export>
