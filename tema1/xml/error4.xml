@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<películas>
+    <película>
+        <título>El Padrino</título>
+        <director>Francis Ford Coppola</director>
+        <año>1972</año>
+        <género>Crimen, Drama</género>
+    <película>
+        <título>Forrest Gump</título>
+        <director>Robert Zemeckis</director>
+        <año>1994</año>
+        <género>Drama, Romance</género>
+    </película>
+    <película>
+        <título>Inception</título>
+        <director>Christopher Nolan</director>
+        <año>2010</año>
+        <género>Ciencia ficción, Acción</género>
+    </película>
+    <!-- Agrega más películas según sea necesario -->
+</películas>
