@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Aquí tienes un ejemplo de un pedido que mezcla datos de clientes y 
+de productos. Los dos vocabularios tienen una etiqueta <nombre>, y los 
+espacios de nombres sirven para distinguirlas:-->
+<pedido xmlns="http://www.ejemplo.com/pedidos"
+        xmlns:cli="http://www.ejemplo.com/clientes"
+        xmlns:prod="http://www.ejemplo.com/productos">
+
+    <numero>1001</numero>
+    <fecha>2026-09-30</fecha>
+
+    <cli:cliente>
+        <!--nombre de etiqueta duplicado-->
+        <cli:nombre>Ana García</cli:nombre>
+        <cli:email>ana@example.com</cli:email>
+    </cli:cliente>
+
+    <prod:producto>
+        <!--nombre de etiqueta duplicado-->
+        <prod:nombre>Teclado mecánico</prod:nombre>
+        <prod:precio moneda="EUR">59.90</prod:precio>
+    </prod:producto>
+
+</pedido>

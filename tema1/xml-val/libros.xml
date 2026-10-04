@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="esquema.xsd">
+  <libro>
+    <titulo>El Quijote</titulo>
+    <autor>Miguel de Cervantes</autor>
+    <precio>19.95</precio>
+  </libro>
+  <libro>
+    <titulo>Cien años de soledad</titulo>
+    <autor>Gabriel García Márquez</autor>
+    <precio>24.50</precio>
+  </libro>
+</catalogo>
