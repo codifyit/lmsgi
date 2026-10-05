@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Datos extraídos de la tabla de t3_clasificacion.html -->
+<liga nombre="Liga escolar de baloncesto" temporada="2026-2027">
+    <clasificacion jornada="4" actualizada="2026-10-03">
+        <equipo posicion="1">
+            <nombre>IES Guadalquivir</nombre>
+            <partidos_jugados>4</partidos_jugados>
+            <partidos_ganados>4</partidos_ganados>
+            <partidos_perdidos>0</partidos_perdidos>
+            <puntos>8</puntos>
+        </equipo>
+        <equipo posicion="2">
+            <nombre>CD Olivares</nombre>
+            <partidos_jugados>4</partidos_jugados>
+            <partidos_ganados>3</partidos_ganados>
+            <partidos_perdidos>1</partidos_perdidos>
+            <puntos>7</puntos>
+        </equipo>
+        <equipo posicion="3">
+            <nombre>Colegio San José</nombre>
+            <partidos_jugados>4</partidos_jugados>
+            <partidos_ganados>2</partidos_ganados>
+            <partidos_perdidos>2</partidos_perdidos>
+            <puntos>6</puntos>
+        </equipo>
+        <equipo posicion="4">
+            <nombre>Ribera &amp; Campiña</nombre>
+            <partidos_jugados>4</partidos_jugados>
+            <partidos_ganados>1</partidos_ganados>
+            <partidos_perdidos>3</partidos_perdidos>
+            <puntos>5</puntos>
+        </equipo>
+        <equipo posicion="5">
+            <nombre>IES Las Vegas</nombre>
+            <partidos_jugados>4</partidos_jugados>
+            <partidos_ganados>0</partidos_ganados>
+            <partidos_perdidos>4</partidos_perdidos>
+            <puntos>4</puntos>
+        </equipo>
+    </clasificacion>
+</liga>

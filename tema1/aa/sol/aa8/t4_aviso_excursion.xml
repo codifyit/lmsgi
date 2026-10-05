@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Datos extraídos del aviso t4_aviso_excursion.txt -->
+<excursion>
+    <destino>Sierra Nevada</destino>
+    <grupos>
+        <grupo>1º DAW</grupo>
+        <grupo>1º ASIR</grupo>
+    </grupos>
+    <fecha dia_semana="jueves">2026-11-12</fecha>
+    <salida hora="07:30">Puerta principal del instituto</salida>
+    <regreso_previsto hora="21:00"/>
+    <precio moneda="EUR">35</precio>
+    <precio_incluye>Autobús y alquiler de material</precio_incluye>
+    <profesorado>
+        <responsable>Carmen Vidal</responsable>
+        <responsable>Jorge Molina</responsable>
+    </profesorado>
+    <material_obligatorio>
+        <elemento>Ropa de abrigo e impermeable</elemento>
+        <elemento>Guantes y gafas de sol</elemento>
+        <elemento>Comida para el mediodía</elemento>
+    </material_obligatorio>
+    <autorizacion fecha_limite="2026-11-05">Entregar firmada</autorizacion>
+    <inscripcion_online>
+        <codigo><![CDATA[<a href="https://aula.ejemplo.es/excursion?curso=1&grupo=daw">Inscribirme</a>]]></codigo>
+    </inscripcion_online>
+</excursion>

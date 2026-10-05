@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Datos convertidos desde t2_tienda.json -->
+<tienda nombre="Deportes Ribera" actualizado="2026-10-01">
+    <producto id="1" en_stock="true">
+        <nombre>Zapatillas de running</nombre>
+        <precio moneda="EUR">79.95</precio>
+        <tallas>
+            <talla>40</talla>
+            <talla>41</talla>
+            <talla>42</talla>
+            <talla>43</talla>
+        </tallas>
+        <proveedor pais="España">Sport &amp; Co</proveedor>
+        <!-- descuento: null en el JSON, se omite -->
+    </producto>
+    <producto id="2" en_stock="false" segunda_mano="true">
+        <nombre>Raqueta de pádel</nombre>
+        <precio moneda="EUR">120.0</precio>
+        <tallas/>
+        <proveedor pais="Portugal">PadelPro</proveedor>
+        <descuento unidad="%">15</descuento>
+    </producto>
+    <producto id="3" en_stock="true">
+        <nombre>Balón de fútbol &lt;talla 5&gt;</nombre>
+        <precio moneda="EUR">24.5</precio>
+        <tallas/>
+        <proveedor pais="España">Sport &amp; Co</proveedor>
+    </producto>
+</tienda>
