@@ -4,22 +4,22 @@
 <!-- Clasificación de las ligas locales -->
 <!-- Se añade un nodo raíz que faltaba. Corregido -->
 <ligas>
-<liga nombre="Liga Provincial">
-    <equipo posicion="1">
-        <nombre>CD Atlético Ribera</nombre>
-        <puntos>24</puntos>
-    </equipo>
-    <!-- Error en sintaxis del comentario. Corregido-->
-    <!-- Equipo recién ascendido revisar datos -->
-    <equipo posicion="2">
-        <nombre>UD Campiña</nombre>
-        <puntos>21</puntos>
-    </equipo>
-</liga>
-<liga nombre="Liga Juvenil">
-    <equipo posicion="1">
-        <nombre>CF Olivares</nombre>
-        <puntos>19</puntos>
-    </equipo>
-</liga>
+    <liga nombre="Liga Provincial">
+        <equipo posicion="1">
+            <nombre>CD Atlético Ribera</nombre>
+            <puntos>24</puntos>
+        </equipo>
+        <!-- Error en sintaxis del comentario. Corregido-->
+        <!-- Equipo recién ascendido revisar datos -->
+        <equipo posicion="2">
+            <nombre>UD Campiña</nombre>
+            <puntos>21</puntos>
+        </equipo>
+    </liga>
+    <liga nombre="Liga Juvenil">
+        <equipo posicion="1">
+            <nombre>CF Olivares</nombre>
+            <puntos>19</puntos>
+        </equipo>
+    </liga>
 </ligas>

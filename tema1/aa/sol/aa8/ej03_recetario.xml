@@ -18,8 +18,8 @@
             <ingrediente cantidad="500 g">Patatas</ingrediente>
             <!-- Cierre de ingredientes en posición incorrecta.
              Corregido-->
-        <tiempo>30 minutos</tiempo>
         </ingredientes>
+        <tiempo>30 minutos</tiempo>
     </receta>
     <receta dificultad="alta">
         <nombre>Rabo de toro</nombre>
