@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<biblioteca>
+    
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <año>1967</año>
+        <editorial>Sudamericana</editorial>
+    </libro>
+    <libro>
+        <titulo>La sombra del viento</titulo>
+        <!-- <autor> no terminaba con </autor>
+         sino con </Autor>. Corregido-->
+        <autor>Carlos Ruiz Zafón</autor>
+        <año>2001</año>
+        <editorial>Planeta</editorial>
+    </libro>
+    <libro>
+        <!-- Faltaba el cierre de la etiqueta <titulo>
+         . Corregido-->
+        <titulo>Platero y yo</titulo>
+        <autor>Juan Ramón Jiménez</autor>
+        <año>1914</año>
+        <editorial>La Lectura</editorial>
+    </libro>
+</biblioteca>
