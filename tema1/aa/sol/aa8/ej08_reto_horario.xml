@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Faltaba ? en cierre de etiqueta xml-->
+<horario grupo="1º DAW" curso="2026-2027">
+    <dia nombre="lunes">
+        <sesion hora="1">
+            <modulo>Lenguajes de Marcas</modulo>
+            <aula>A-12</aula>
+        </sesion>
+        <!-- Nombre del cierre de etiqueta erróneo. 
+         Corregido-->
+        <sesion hora="2">
+            <modulo>Bases de Datos</modulo>
+            <aula>A-12</aula>
+        </sesion>
+    </dia>
+    <dia nombre="martes">
+        <sesion hora="1">
+            <modulo>Programación</modulo>
+            <aula>Lab 3</aula>
+            <!-- Entidad HMTL o símbolo especial en contenido
+             de etiqueta. Corregido-->
+            <nota>Traer portátil &amp; cargador</nota>
+        </sesion>
+        <!-- Nombre de atributo duplicado, se quita uno. 
+         Corregido-->
+        <sesion hora="2">
+            <modulo>Sistemas Informáticos</modulo>
+            <aula>Lab 1</aula>
+        </sesion>
+    </dia>
+    <dia nombre="miércoles">
+        <sesion hora="1">
+            <modulo>Entornos de Desarrollo</modulo>
+            <aula>A-14</aula>
+        </sesion>
+    </dia>
+</horario>

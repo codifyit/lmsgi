@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discoteca>
+    <disco>
+        <titulo>Omega</titulo>
+        <artista>Enrique Morente y Lagartija Nick</artista>
+        <!-- Nombre etiqueta con espacio. Corregido -->
+        <año_lanzamiento>1996</año_lanzamiento>
+        <genero>Flamenco, Rock</genero>
+    </disco>
+    <disco>
+        <titulo>El mal querer</titulo>
+        <artista>Rosalía</artista>
+        <!-- Nombre de etiqueta empezando por número.
+         Corregido -->
+        <primer_single>Malamente</primer_single>
+        <genero>Pop, Flamenco</genero>
+    </disco>
+    <disco>
+        <titulo>La leyenda del tiempo</titulo>
+        <artista>Camarón de la Isla</artista>
+        <discográfica>Polydor</discográfica>
+        <!-- Caracteres no permitidos en el nombre de
+         la etiqueta. Corregido -->
+        <precio_euros>12.99</precio_euros>
+    </disco>
+</discoteca>

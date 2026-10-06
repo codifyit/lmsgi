@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recetario>
+    <receta dificultad="baja">
+        <nombre>Salmorejo cordobés</nombre>
+        <ingredientes>
+            <ingrediente cantidad="1 kg">Tomate</ingrediente>
+            <ingrediente cantidad="200 g">Pan de telera</ingrediente>
+            <ingrediente cantidad="100 ml">Aceite de oliva virgen extra</ingrediente>
+        </ingredientes>
+        <tiempo>15 minutos</tiempo>
+    </receta>
+    <receta dificultad="media">
+        <!-- Entidad HTML o símbolo especial escrito literalmente.
+         Se cambia por su entidad HMTL correspondiente. Corregido -->
+        <nombre>Huevos rotos con jamón &amp; patatas</nombre>
+        <ingredientes>
+            <ingrediente cantidad="4">Huevos</ingrediente>
+            <ingrediente cantidad="500 g">Patatas</ingrediente>
+            <!-- Cierre de ingredientes en posición incorrecta.
+             Corregido-->
+        <tiempo>30 minutos</tiempo>
+        </ingredientes>
+    </receta>
+    <receta dificultad="alta">
+        <nombre>Rabo de toro</nombre>
+        <!-- Entidad HTML o símbolo especial escrito literalmente.
+         Se cambia por su entidad HMTL correspondiente. Corregido -->
+        <consejo>Mantener el horno a una temperatura &lt; 180 ºC</consejo>
+        <tiempo>240 minutos</tiempo>
+    </receta>
+</recetario>

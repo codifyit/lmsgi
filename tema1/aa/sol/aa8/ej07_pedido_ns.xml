@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pedido xmlns="http://www.ejemplo.com/pedidos"
+        xmlns:cli="http://www.ejemplo.com/clientes"
+        xmlns:prod="http://www.ejemplo.com/clientes">
+    <numero>2045</numero>
+    <cli:cliente>
+        <cli:nombre>Pedro Alonso</cli:nombre>
+        <cli:email>pedro@example.com</cli:email>
+        <!-- Falta espacio de nombre en el cierre de etiqueta. 
+         Corregido -->
+        <cli:direccion>Calle Mayor, 12</cli:direccion>
+    </cli:cliente>
+    <!-- Espacio de nombre no definido. Corregido -->
+    <prod:producto>
+        <prod:nombre>Ratón inalámbrico</prod:nombre>
+        <prod:precio moneda="EUR">24.90</prod:precio>
+    </prod:producto>
+    <!-- Atributo sin valor. Corregido-->
+    <observaciones urgente="Sí">Entregar por la tarde</observaciones>
+</pedido>
