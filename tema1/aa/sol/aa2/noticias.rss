@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Noticias del IES Ejemplo</title>
+    <link>https://www.ies-ejemplo.es/</link>
+    <description>Últimas noticias del instituto</description>
+    <language>es-es</language>
+    <item>
+      <title>Abierto el plazo de matrícula para FP Dual</title>
+      <link>https://www.ies-ejemplo.es/noticias/matricula-dual</link>
+      <pubDate>Mon, 12 Oct 2026 09:00:00 +0200</pubDate>
+      <description>La matrícula estará abierta hasta el 30 de octubre.</description>
+    </item>
+    <item>
+      <title>Visita a un centro de datos</title>
+      <link>https://www.ies-ejemplo.es/noticias/visita-cpd</link>
+      <pubDate>Thu, 08 Oct 2026 12:30:00 +0200</pubDate>
+      <description>El alumnado de ASIR conoce un CPD por dentro.</description>
+    </item>
+    <item>
+      <title>Torneo de programación &amp; ciberseguridad</title>
+      <link>https://www.ies-ejemplo.es/noticias/torneo</link>
+      <pubDate>Fri, 02 Oct 2026 10:00:00 +0200</pubDate>
+      <description>Inscripciones abiertas para todos los ciclos.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,101 @@
+{
+  "temporada": "2026-2027",
+  "actividades": [
+    {
+      "codigo": "A01",
+      "dia": "lunes",
+      "nombre": "Pádel iniciación",
+      "hora_inicio": "17:00",
+      "plazas": 12,
+      "precio": 18.5,
+      "observaciones": "Traer raqueta & pelotas",
+      "monitor": {
+        "codigo": "M02",
+        "nombre": "Sergio Pino",
+        "titulacion": "Técnico deportivo en pádel",
+        "email": "sergio.pino@example.com",
+        "hace_sustituciones": true
+      }
+    },
+    {
+      "codigo": "A02",
+      "dia": "martes",
+      "nombre": "Natación infantil",
+      "hora_inicio": "18:00",
+      "plazas": 15,
+      "precio": 22.0,
+      "observaciones": "Solo para edad < 12 años",
+      "monitor": {
+        "codigo": "M01",
+        "nombre": "Laura Medina",
+        "titulacion": "Grado en Ciencias de la Actividad Física y del Deporte",
+        "email": "laura.medina@example.com",
+        "hace_sustituciones": true
+      }
+    },
+    {
+      "codigo": "A03",
+      "dia": "miércoles",
+      "nombre": "Yoga",
+      "hora_inicio": "19:30",
+      "plazas": 20,
+      "precio": 15.0,
+      "observaciones": null,
+      "monitor": {
+        "codigo": "M03",
+        "nombre": "Nuria Campos",
+        "titulacion": "Instructora de yoga y pilates",
+        "email": "nuria.campos@example.com",
+        "hace_sustituciones": false
+      }
+    },
+    {
+      "codigo": "A04",
+      "dia": "jueves",
+      "nombre": "Baloncesto cadete",
+      "hora_inicio": "17:30",
+      "plazas": 14,
+      "precio": 20.0,
+      "observaciones": "Equipación del club obligatoria",
+      "monitor": {
+        "codigo": "M01",
+        "nombre": "Laura Medina",
+        "titulacion": "Grado en Ciencias de la Actividad Física y del Deporte",
+        "email": "laura.medina@example.com",
+        "hace_sustituciones": true
+      }
+    },
+    {
+      "codigo": "A05",
+      "dia": "viernes",
+      "nombre": "Pilates",
+      "hora_inicio": "10:00",
+      "plazas": 18,
+      "precio": 15.0,
+      "observaciones": null,
+      "monitor": {
+        "codigo": "M03",
+        "nombre": "Nuria Campos",
+        "titulacion": "Instructora de yoga y pilates",
+        "email": "nuria.campos@example.com",
+        "hace_sustituciones": false
+      }
+    },
+    {
+      "codigo": "A06",
+      "dia": "sábado",
+      "nombre": "Atletismo",
+      "hora_inicio": "09:30",
+      "plazas": 25,
+      "precio": 12.5,
+      "observaciones": "Pista municipal & parque del río",
+      "monitor": {
+        "codigo": "M04",
+        "nombre": "Javier Ortega",
+        "titulacion": "Técnico superior en enseñanza y animación sociodeportiva",
+        "email": "javier.ortega@example.com",
+        "hace_sustituciones": true
+      }
+    }
+  ]
+}

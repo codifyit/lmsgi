@@ -1,0 +1,7 @@
+Código;Nombre;Día;Hora inicio;Plazas;Precio (€);Código monitor;Observaciones
+A01;Pádel iniciación;lunes;17:00;12;18,50;M02;Traer raqueta & pelotas
+A02;Natación infantil;martes;18:00;15;22,00;M01;Solo para edad < 12 años
+A03;Yoga;miércoles;19:30;20;15,00;M03;
+A04;Baloncesto cadete;jueves;17:30;14;20,00;M01;Equipación del club obligatoria
+A05;Pilates;viernes;10:00;18;15,00;M03;
+A06;Atletismo;sábado;09:30;25;12,50;M04;Pista municipal & parque del río

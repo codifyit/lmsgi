@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gpx version="1.1" creator="AppDeporte" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Ruta por la sierra</name>
+  </metadata>
+  <trk>
+    <name>Salida del domingo</name>
+    <trkseg>
+      <trkpt lat="37.8920" lon="-4.7790"><ele>120</ele></trkpt>
+      <trkpt lat="37.8951" lon="-4.7744"><ele>148</ele></trkpt>
+      <trkpt lat="37.8987" lon="-4.7702"><ele>175</ele></trkpt>
+      <trkpt lat="37.9015" lon="-4.7660"><ele>203</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>
