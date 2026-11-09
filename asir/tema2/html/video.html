@@ -1,0 +1,22 @@
+<!-- Vídeo básico con controles -->
+<video controls width="640" height="360" poster="img/circuitos.jpeg">
+  <!-- source: múltiples formatos para compatibilidad -->
+  <source src="video/circuitos.mp4"  type="video/mp4">
+  
+  <!-- Fallback si el navegador no soporta <video> -->
+  <p>Tu navegador no soporta vídeo HTML5.
+     <a href="video.mp4">Descarga el vídeo aquí</a>.
+  </p>
+</video>
+
+<!-- Vídeo de fondo (autoreproducido, silenciado, en bucle) -->
+<video autoplay muted loop playsinline
+       class="video-fondo"
+       aria-hidden="true">
+  <source src="video/circuitos.mp4" type="video/mp4">
+</video>
+
+<!-- Formato recomendado por compatibilidad -->
+<!-- MP4 (H.264): máxima compatibilidad (Chrome, Firefox, Safari, Edge) -->
+<!-- WebM (VP9):  mejor compresión, todos excepto Safari antiguo -->
+<!-- OGV:         solo necesario para Firefox muy antiguo (ya innecesario) -->
