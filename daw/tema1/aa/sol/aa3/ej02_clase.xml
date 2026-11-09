@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<clase grupo="1DAW">
+    <alumno id="A01" repetidor="no">
+        <nombre>Lucía</nombre>
+        <apellidos>Martín Ruiz</apellidos>
+        <nota modulo="LMSGI">8.5</nota>
+    </alumno>
+    <!-- Faltaban comillas en el atributo id. Corregido-->
+    <alumno id="A02" repetidor="no">
+        <nombre>Javier</nombre>
+        <apellidos>Ortega Sánchez</apellidos>
+        <!-- Nombre de atributo repetido. Se quita uno.
+         Corregido-->
+        <nota modulo="LMSGI">6</nota>
+    </alumno>
+    <alumno id="A03" repetidor="si">
+        <nombre>Marta</nombre>
+        <apellidos>Romero Díaz</apellidos>
+        <!-- Comillas simples combinadas con dobles
+         en el valor de un atributo. Se usancomillas dobles.
+         Corregido -->
+        <nota modulo="LMSGI">7.25</nota>
+    </alumno>
+</clase>

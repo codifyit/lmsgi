@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido 
+    xmlns:bd="http://miempresa.com"
+    xmlns:mueble="http://miempresa.com">
+
+    <!-- 1. Aquí 'tabla' se refiere a una tabla de datos (Estructura de Software) -->
+    <bd:tabla>
+        <bd:nombre_registro>Clientes_Frecuentes</bd:nombre_registro>
+        <bd:id_usuario>98452</bd:id_usuario>
+    </bd:tabla>
+
+    <!-- 2. Aquí 'tabla' se refiere a un objeto físico (Mobiliario) -->
+    <mueble:tabla>
+        <mueble:material>Madera de Roble</mueble:material>
+        <mueble:patas>4</mueble:patas>
+        <mueble:precio>150.00</mueble:precio>
+    </mueble:tabla>
+
+</pedido>

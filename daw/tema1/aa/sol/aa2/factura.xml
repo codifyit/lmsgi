@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ejemplo simplificado con fines didácticos: no sigue ningún formato oficial -->
+<factura numero="2026-0153" fecha="2026-10-05">
+  <emisor nif="B00000000">
+    <nombre>Suministros Informáticos del Sur, S.L.</nombre>
+  </emisor>
+  <receptor nif="S0000000X">
+    <nombre>IES Ejemplo</nombre>
+  </receptor>
+  <lineas>
+    <linea cantidad="10" precio_unitario="24.90">Ratón inalámbrico</linea>
+    <linea cantidad="4" precio_unitario="129.00">Monitor de 24 pulgadas</linea>
+  </lineas>
+  <base_imponible>765.00</base_imponible>
+  <iva tipo="21">160.65</iva>
+  <total moneda="EUR">925.65</total>
+</factura>

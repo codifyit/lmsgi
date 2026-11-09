@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Escuelas deportivas municipales: datos de actividades.csv y monitores.csv -->
+<escuelas xmlns="https://deportes.ayto-ejemplo.es/escuelas"
+  xmlns:mon="https://monitores.ejemplo.es/personal"
+  temporada="2026-2027">
+  <actividad codigo="A01" dia="lunes">
+    <nombre>Pádel iniciación</nombre>
+    <hora_inicio>17:00</hora_inicio>
+    <plazas>12</plazas>
+    <precio>18.50</precio>
+    <observaciones>Traer raqueta &amp; pelotas</observaciones>
+    <mon:monitor codigo="M02">
+      <mon:nombre>Sergio Pino</mon:nombre>
+      <mon:titulacion>Técnico deportivo en pádel</mon:titulacion>
+      <mon:email>sergio.pino@example.com</mon:email>
+      <mon:hace_sustituciones>true</mon:hace_sustituciones>
+    </mon:monitor>
+  </actividad>
+  <actividad codigo="A02" dia="martes">
+    <nombre>Natación infantil</nombre>
+    <hora_inicio>18:00</hora_inicio>
+    <plazas>15</plazas>
+    <precio>22.00</precio>
+    <observaciones>Solo para edad &lt; 12 años</observaciones>
+    <mon:monitor codigo="M01">
+      <mon:nombre>Laura Medina</mon:nombre>
+      <mon:titulacion>Grado en Ciencias de la Actividad Física y del Deporte</mon:titulacion>
+      <mon:email>laura.medina@example.com</mon:email>
+      <mon:hace_sustituciones>true</mon:hace_sustituciones>
+    </mon:monitor>
+  </actividad>
+  <actividad codigo="A03" dia="miércoles">
+    <nombre>Yoga</nombre>
+    <hora_inicio>19:30</hora_inicio>
+    <plazas>20</plazas>
+    <precio>15.00</precio>
+    <observaciones />
+    <mon:monitor codigo="M03">
+      <mon:nombre>Nuria Campos</mon:nombre>
+      <mon:titulacion>Instructora de yoga y pilates</mon:titulacion>
+      <mon:email>nuria.campos@example.com</mon:email>
+      <mon:hace_sustituciones>false</mon:hace_sustituciones>
+    </mon:monitor>
+  </actividad>
+  <actividad codigo="A04" dia="jueves">
+    <nombre>Baloncesto cadete</nombre>
+    <hora_inicio>17:30</hora_inicio>
+    <plazas>14</plazas>
+    <precio>20.00</precio>
+    <observaciones>Equipación del club obligatoria</observaciones>
+    <mon:monitor codigo="M01">
+      <mon:nombre>Laura Medina</mon:nombre>
+      <mon:titulacion>Grado en Ciencias de la Actividad Física y del Deporte</mon:titulacion>
+      <mon:email>laura.medina@example.com</mon:email>
+      <mon:hace_sustituciones>true</mon:hace_sustituciones>
+    </mon:monitor>
+  </actividad>
+  <actividad codigo="A05" dia="viernes">
+    <nombre>Pilates</nombre>
+    <hora_inicio>10:00</hora_inicio>
+    <plazas>18</plazas>
+    <precio>15.00</precio>
+    <observaciones />
+    <mon:monitor codigo="M03">
+      <mon:nombre>Nuria Campos</mon:nombre>
+      <mon:titulacion>Instructora de yoga y pilates</mon:titulacion>
+      <mon:email>nuria.campos@example.com</mon:email>
+      <mon:hace_sustituciones>false</mon:hace_sustituciones>
+    </mon:monitor>
+  </actividad>
+  <actividad codigo="A06" dia="sábado">
+    <nombre>Atletismo</nombre>
+    <hora_inicio>09:30</hora_inicio>
+    <plazas>25</plazas>
+    <precio>12.50</precio>
+    <observaciones>Pista municipal &amp; parque del río</observaciones>
+    <mon:monitor codigo="M04">
+      <mon:nombre>Javier Ortega</mon:nombre>
+      <mon:titulacion>Técnico superior en enseñanza y animación sociodeportiva</mon:titulacion>
+      <mon:email>javier.ortega@example.com</mon:email>
+      <mon:hace_sustituciones>true</mon:hace_sustituciones>
+    </mon:monitor>
+  </actividad>
+</escuelas>

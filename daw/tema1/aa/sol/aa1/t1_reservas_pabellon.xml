@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Datos convertidos desde t1_reservas_pabellon.csv -->
+<reservas>
+    <reserva id="R-101" fecha="2026-10-13">
+        <hora_inicio>16:00</hora_inicio>
+        <hora_fin>17:30</hora_fin>
+        <pista>Pista 1</pista>
+        <grupo>Baloncesto infantil</grupo>
+        <responsable>Ana Torres</responsable>
+        <observaciones>Material: balones &amp; conos</observaciones>
+    </reserva>
+    <reserva id="R-102" fecha="2026-10-13">
+        <hora_inicio>17:30</hora_inicio>
+        <hora_fin>19:00</hora_fin>
+        <pista>Pista 2</pista>
+        <grupo>Voleibol cadete</grupo>
+        <responsable>Luis Romero</responsable>
+        <observaciones/>
+    </reserva>
+    <reserva id="R-103" fecha="2026-10-14">
+        <hora_inicio>16:00</hora_inicio>
+        <hora_fin>17:00</hora_fin>
+        <pista>Pista 1</pista>
+        <grupo>Iniciación deportiva</grupo>
+        <responsable>Marta Gil</responsable>
+        <observaciones>Solo niños con edad &lt; 10 años</observaciones>
+    </reserva>
+    <reserva id="R-104" fecha="2026-10-15">
+        <hora_inicio>18:00</hora_inicio>
+        <hora_fin>20:00</hora_fin>
+        <pista>Pista 1 y 2</pista>
+        <grupo>Torneo de fútbol sala</grupo>
+        <responsable>Pedro Ruiz</responsable>
+        <observaciones>Llevar "petos" de dos colores</observaciones>
+    </reserva>
+</reservas>

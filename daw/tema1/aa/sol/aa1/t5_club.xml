@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Combina t5_socios.csv (prefijo soc) y t5_cuotas.json (prefijo cuo) -->
+<club xmlns:soc="http://www.ejemplo.es/club/socios"
+      xmlns:cuo="http://www.ejemplo.es/club/cuotas">
+    <soc:socio dni="11111111H" fecha_alta="2025-09-15">
+        <soc:nombre>Laura Medina</soc:nombre>
+        <soc:email>laura@example.com</soc:email>
+        <cuo:cuotas>
+            <cuo:cuota mes="2026-09" pagada="true">25.0</cuo:cuota>
+            <cuo:cuota mes="2026-10" pagada="false">25.0</cuo:cuota>
+        </cuo:cuotas>
+    </soc:socio>
+    <soc:socio dni="22222222J" fecha_alta="2026-01-10">
+        <soc:nombre>Sergio Pino</soc:nombre>
+        <soc:email>sergio@example.com</soc:email>
+        <cuo:cuotas>
+            <cuo:cuota mes="2026-09" pagada="true">18.5</cuo:cuota>
+        </cuo:cuotas>
+    </soc:socio>
+    <soc:socio dni="33333333P" fecha_alta="2026-03-02">
+        <soc:nombre>Nuria Campos</soc:nombre>
+        <soc:email>nuria@example.com</soc:email>
+        <cuo:cuotas>
+            <cuo:cuota mes="2026-09" pagada="true">25.0</cuo:cuota>
+        </cuo:cuotas>
+    </soc:socio>
+</club>

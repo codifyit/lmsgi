@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de funciones en JavaScript</title>
+</head>
+<body>
+    <script>
+        // Declaración: se puede llamar antes de su definición (hoisting)
+        function sumar(a, b = 0) { // b tiene valor por defecto
+           return a + b;
+        }
+        console.log(sumar(5, 3));
+        //funciones anónimas flecha
+        const cuadrado = (x) => x * x; //una expresión como resultado de la función
+        console.log(cuadrado(5));
+
+        const saludar = (nombre) => {
+            const mensaje = `Hola, ${nombre}`;
+            return mensaje;
+        };
+        console.log(saludar("Manuel"));
+        
+        //función declarativa con dos parámetros y función flecha como parámetro
+        function repetir(veces, accion) {
+            for (let i = 0; i < veces; i++) accion(i);
+        }
+        //llamada: primer parámetro es el número de veces
+        //segundo parámetro es una función anónima flecha
+        repetir(3, (i) => console.log("Repetición", i));
+    </script>
+</body>
+</html>
