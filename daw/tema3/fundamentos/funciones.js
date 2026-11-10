@@ -19,13 +19,17 @@ const sumaFlechaLineas = (a, b = 0) => {
 console.log(sumaFlechaLineas(2, 3))
 
 //función expresiva de tipo flecha, con más de una línea
+//el segundo parámetro es una función que se ejecuta dentro de la
+//función sumarTodos
 function sumarTodos(limite, accion) {
   let sumaParcial = 0
   for (let i = 0; i < limite; i++) sumaParcial = accion(i, sumaParcial)
   return sumaParcial
 }
-let resultado = 0
-resultado = sumarTodos(3, (i, sumaParcial) => {
+//llamada a la función pasando una función anónima como segundo parámetro
+//la función anónima recibe dos parámetros, el primero es el valor de i
+//y el segundo es la suma parcial que se va acumulando en cada iteración
+let resultado = sumarTodos(3, (i, sumaParcial) => {
   sumaParcial = sumaParcial + i
   return sumaParcial
 })
