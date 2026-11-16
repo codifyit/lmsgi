@@ -1,6 +1,7 @@
 //función declarativa
 function sumar(a, b = 0) {
   return a + b
+  
 }
 //llamada a la función
 let suma = sumar(2, 3) // 5
