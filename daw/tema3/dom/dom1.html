@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mi tienda</title>
+  </head>
+  <body>
+    <h1 id="titulo">Mi tienda</h1>
+    <!-- resto de la página -->
+    <ul id="productos">
+      <li class="producto oferta" data-precio="2.50">Café</li>
+      <li class="producto">Té</li>
+      <li class="producto oferta">Cacao</li>
+    </ul>
+    <img id="logo" src="logo.png" alt="Logo de la tienda" />
+    <a id="web" href="https://www.ejemplo.com">Visítanos</a>
+
+    <script type="text/javascript">
+      const titulo = document.getElementById('titulo')
+      console.log(titulo.textContent)
+
+      // Si el id no existe, devuelve null
+      console.log(document.getElementById('noExiste'))
+
+      //obtiene todos los elementos con la clase producto
+      let productos = document.querySelectorAll('.producto')
+      console.log(productos.length) // cuántos hay
+      console.log(productos[0].textContent) // el primero
+      //recorre y muestra el contenido de cada uno
+      productos.forEach((p, i) => {
+        console.log(i, p.textContent)
+      })
+      const logo = document.getElementById('logo')
+      console.log(logo.getAttribute('src'))
+      console.log(logo.alt) // como propiedad
+
+      let cafe = document.querySelector('.producto')
+      console.log(cafe.getAttribute('data-precio'))
+      console.log(cafe.dataset.precio) // data-*
+
+      productos = document.querySelectorAll('.producto')
+      cafe = productos[0] // class="producto oferta"
+      let te = productos[1] // class="producto"
+
+      console.log(cafe.classList.contains('oferta'))
+      console.log(te.classList.contains('oferta'))
+      console.log(cafe.className)
+
+      //contar y sumar los productos
+      productos = document.querySelectorAll('.producto')
+      let total = 0
+      let enOferta = 0
+
+      productos.forEach((p) => {
+        total += Number(p.dataset.precio)
+        if (p.classList.contains('oferta')) {
+          enOferta++
+        }
+      })
+
+      console.log('Productos:', productos.length)
+      console.log('En oferta:', enOferta)
+      console.log('Total:', total.toFixed(2))
+    </script>
+  </body>
+</html>
